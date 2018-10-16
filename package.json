@@ -1,15 +1,20 @@
 {
   "name": "jpegtran-bin",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "jpegtran (part of libjpeg-turbo) bin-wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
-  "repository": "imagemin/jpegtran-bin",
+  "repository": "dinamomx/jpegtran-bin",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com"
   },
   "maintainers": [
+    {
+      "name": "César Valadez",
+      "email": "cesar@wdinamo.com",
+      "url": "github.com/cesasol"
+    },
     {
       "name": "Kevin Mårtensson",
       "email": "kevinmartensson@gmail.com",
@@ -24,7 +29,7 @@
     "jpegtran": "cli.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
     "postinstall": "node lib/install.js",
