@@ -1,0 +1,10 @@
+prefix=/home/cesar/Documents/dinamo/Proyectos/imagemin/jpegtran-bin/vendor
+exec_prefix=/home/cesar/Documents/dinamo/Proyectos/imagemin/jpegtran-bin/vendor
+libdir=/home/cesar/Documents/dinamo/Proyectos/imagemin/jpegtran-bin/vendor/lib64
+includedir=/home/cesar/Documents/dinamo/Proyectos/imagemin/jpegtran-bin/vendor/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 2.0.0
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}
