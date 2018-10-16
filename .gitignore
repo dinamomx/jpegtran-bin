@@ -6,3 +6,6 @@ vendor/djpeg
 vendor/rdjpgcom
 vendor/tjbench
 vendor/wrjpgcom
+vendor/share
+vendor/lib*
+vendor/include
