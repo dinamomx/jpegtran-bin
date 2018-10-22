@@ -1,6 +1,6 @@
 {
   "name": "@dinamomx/jpegtran-bin",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "description": "jpegtran (part of libjpeg-turbo) bin-wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
   "repository": "dinamomx/jpegtran-bin",
