@@ -7,7 +7,7 @@ const tempy = require('tempy');
 const binCheck = require('bin-check');
 const compareSize = require('compare-size');
 const jpegtran = require('..');
-const {buildBinary} = require('../lib/utils');
+const {buildBinary, binaryName} = require('../lib/utils');
 
 test('rebuild the jpegtran binaries', async t => {
 	const tmp = tempy.directory();
@@ -16,7 +16,7 @@ test('rebuild the jpegtran binaries', async t => {
 	} catch (error) {
 		t.ifError(error);
 	}
-	t.true(fs.existsSync(path.join(tmp, 'jpegtran')));
+	t.true(fs.existsSync(path.join(tmp, binaryName)));
 });
 
 test('return path to binary and verify that it is working', async t => {
